@@ -74,6 +74,76 @@ user_agent_parsers:
   - regex: '(PaleMoon)/(\d+)\.(\d+)\.?(\d+)?'
     family_replacement: 'Pale Moon'
 
+  - regex: '(360SE)'
+    family_replacement: '360 Browser'
+
+  # Ignore These Deskop Browsers
+  # - regex: '(TheWorld)'
+  #   family_replacement: 'TheWorld Browser'
+
+  # - regex: '(TencentTraveler) (\d+)\.(\d+)'
+  #   family_replacement: 'Tencent Traveler'
+
+  # 360
+  - regex: '(360)\s*Aphone\s*Browser\s*\((?:Version\s*)?(\d+)\.(\d+)\.(\d+)\w*\)'
+    family_replacement: '360 Browser Mobile'
+  - regex: 'Mobile.*(QihooBrowser)\/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: '360 Browser Mobile'
+
+  # LieBao
+  - regex: '(LieBaoFast)\/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'LieBao Browser Fast'
+  - regex: '(LieBao)\/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'LieBao Browser'
+  - regex: '(LBBROWSER)'
+    family_replacement: 'LieBao Browser'
+
+  # Sogou
+  - regex: '(SogouMobileBrowser)\/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Sogou Browser Mobile'
+  - regex: '[, ]Sogou(\w+) '
+    regex_flag: 'i'
+    family_replacement: 'Sogou $1'
+
+  # baidu tieba
+  - regex: '(tieba)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Baidu Tieba'
+
+  # BaiduHD
+  - regex: '(BaiduHD)(?:\s+|\/)(\d+)\.(\d+)\.(\d+)'
+    regex_flag: 'i'
+    family_replacement: 'Baidu HD'
+  - regex: '(bdbrowser\w+)\/(\d+)\.(\d+)\.(\d+)(?:\.(\d+))?'
+    family_replacement: 'Baidu Browser'
+
+  # BaiduBox
+  - regex: '(baiduboxapp)\/(?:\d+_)?(\d+)\.(\d+)(?:\.(\d+))?'
+    family_replacement: '百度框'
+  - regex: '(baiduboxapp)'
+    family_replacement: '百度框'
+
+  # Baidu Application Runtime
+  - regex: '(BaiduLightAppRuntime)'
+    family_replacement: '百度轻应用'
+
+  # Weibo
+  - regex: '(Weibo).*__weibo__(\d+)\.(\d+)\.(\d+)__'
+    family_replacement: '微博'
+  - regex: '(Weibo)'
+    family_replacement: '微博'
+
+  # # hao123
+  # - regex: '(hao123)'
+  #   family_replacement: 'hao123'
+
+  # Webchat
+  - regex: '(MicroMessenger)\/(\d+)\.(\d+)\.(\d+)(?:\.(\d+))?'
+    family_replacement: '微信'
+
+  # Miui Browser
+  - regex: '(MiuiBrowser)\/(\d+)\.(\d+)(?:\.(\d+))?'
+    family_replacement: 'Miui Browser'
+
   # Firefox
   - regex: '(Fennec)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)'
     family_replacement: 'Firefox Mobile'
@@ -141,6 +211,8 @@ user_agent_parsers:
 
   # Opera 14 for Android uses a WebKit render engine.
   - regex: '(?:Mobile Safari).*(OPR)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Opera Mobile'
+  - regex: '(OPR)/(\d+)\.(\d+)\.(\d+).*(?:Mobile)'
     family_replacement: 'Opera Mobile'
 
   # Opera >=15 for Desktop is similar to Chrome but includes an "OPR" Version string.
@@ -253,6 +325,17 @@ user_agent_parsers:
   # Crosswalk must go before Mobile Chrome for Android
   - regex: '(Crosswalk)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
 
+  # other chrome like mobile browser
+  - regex: 'Android.*AppleWebKit.*Mobile.*Safari.*\s+(\w+)Browser/(\d+)\.(\d+)(?:\.(\d+))?'
+    regex_flag: 'i'
+    family_replacement: '$1 Browser'
+  - regex: 'iPhone.*AppleWebKit.*Mobile.*\s+(\w+)Browser/(\d+)\.(\d+)(?:\.(\d+))?'
+    regex_flag: 'i'
+    family_replacement: '$1 Browser'
+  # - regex: '(Android)(?: (\d+)?\.?(\d+)?\.?(\d+)?\.?;).*AppleWebKit.*(?:Mobile)?.*Safari'
+  #   regex_flag: 'i'
+  #   family_replacement: 'Android Browser'
+
   # Chrome Mobile
   - regex: '; wv\).+(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile WebView'
@@ -278,6 +361,12 @@ user_agent_parsers:
     family_replacement: 'Sogou Explorer'
 
   # QQ Browsers
+  - regex: 'Mobile.*\s+(QQ)\/(\d+)\.(\d+)\.(\d+)(?:\.(\d+))?'
+    family_replacement: 'Mobile QQ'
+  - regex: '(MQQBrowser)(?:\/(\d+).(\d+))?.*\s+QBWebViewType'
+    family_replacement: 'Mobile QQ'
+  - regex: '\s+(QQ)\/(\d+)\.(\d+)\.(\d+)(?:\.(\d+))?'
+    family_replacement: 'QQ'
   - regex: '(MQQBrowser/Mini)(?:(\d+)(?:\.(\d+)(?:\.(\d+))?)?)?'
     family_replacement: 'QQ Browser Mini'
   - regex: '(MQQBrowser)(?:/(\d+)(?:\.(\d+)(?:\.(\d+))?)?)?'
@@ -303,6 +392,10 @@ user_agent_parsers:
   # AOL Browser (IE-based)
   - regex: '(AOL) (\d+)\.(\d+); AOLBuild (\d+)'
 
+  # MxBrowser is Maxthon
+  - regex: '(MxBrowser)/(\d+)\.(\d+)(?:\.(\d+))?'
+    family_replacement: 'Maxthon'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
@@ -311,7 +404,7 @@ user_agent_parsers:
   # Slack desktop client (needs to be before Apple Mail, Electron, and Chrome as it gets wrongly detected on Mac OS otherwise)
   - regex: '(Slack_SSB)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Slack Desktop Client'
-  
+
   # HipChat provides a version on Mac, but not on Windows.
   # Needs to be before Chrome on Windows, and AppleMail on Mac.
   - regex: '(HipChat)/?(\d+)?'

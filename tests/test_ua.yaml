@@ -7119,7 +7119,7 @@ test_cases:
     major: '3'
     minor: '8'
     patch: '4'
- 
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 SznProhlizec/4.4i'
     family: 'Seznam.cz'
     major: '4'
@@ -7186,3 +7186,116 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; 360SE)'
+    family: '360 Browser'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; HUAWEI P7-L09 Build/HuaweiP7-L09) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36; 360browser(securitypay,securityinstalled); 360(android,uppayplugin); 360 Aphone Browser (6.1.0ctch1)'
+    family: '360 Browser Mobile'
+    major: '6'
+    minor: '1'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 10.3.2 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3 QHBrowser/271 QihooBrowser/4.0.1'
+    family: '360 Browser Mobile'
+    major: '4'
+    minor: '0'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; vivo Y55A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 LieBaoFast/4.45.4'
+    family: 'LieBao Browser Fast'
+    major: '4'
+    minor: '45'
+    patch: '4'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 LBBROWSER'
+    family: 'LieBao Browser'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; OPPO R9s; Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.92 Mobile Safari/537.36 SogouMSE,SogouMobileBrowser/5.8.0'
+    family: 'Sogou Browser Mobile'
+    major: '5'
+    minor: '8'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; SM-G9008W Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 SogouSearch Android1.0 version3.0 AppVersion/5401'
+    family: 'Sogou Search'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 6.1; zh_CN) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0 baidubrowser/1.x Safari/534.7'
+    family: 'Baidu Browser'
+    major: '1'
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; zh_cn) AppleWebKit/6534.46 (KHTML, like Gecko) FlyFlow/2.0 Version/5.0.5 Safari/6534.46'
+    family: 'Baidu Explorer'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 tieba/8.6.4'
+    family: 'Baidu Tieba'
+    major: '8'
+    minor: '6'
+    patch: '4'
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) BaiduHD/5.4.0.0 Mobile/10A406 Safari/8536.25'
+    family: 'Baidu HD'
+    major: '5'
+    minor: '4'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; HTC_X9u Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 baiduboxapp/8.6.7 (Baidu; P1 6.0)'
+    family: '百度框'
+    major: '8'
+    minor: '6'
+    patch: '7'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 rabbit%2F1.0 baiduboxapp/0_0.0.4.7_enohpi_6311_046/2.1.7_2C2%255enohPi/1000306f/8E6A80BD12620BA13B572E00F1F431DF297616681OCFCMBBCQS/1'
+    family: '百度框'
+    major: '0'
+    minor: '0'
+    patch: '4'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.3; zh-cn; SM-G7109 Build/JLS36C) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 baiduboxapp/5.4 (Baidu; P1 4.3) BaiduLightAppRuntime'
+    family: '百度框'
+    major: '5'
+    minor: '4'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.4; vivo Y13iL Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 Weibo (vivo-vivo Y13iL__weibo__7.6.1__android__android4.4.4)'
+    family: '微博'
+    major: '7'
+    minor: '6'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; OPPO R9m Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043305 Safari/537.36 MicroMessenger/6.5.8.1060 NetType/4G Language/zh_CN'
+    family: '微信'
+    major: '6'
+    minor: '5'
+    patch: '8'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.2.1; zh-cn; 2013022 Build/HM2013022) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.1.1'
+    family: 'Miui Browser'
+    major: '2'
+    minor: '1'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0.2; vivo Y37A Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/38.0.0.0 Mobile Safari/537.36 VivoBrowser/5.1.6'
+    family: 'Vivo Browser'
+    major: '5'
+    minor: '1'
+    patch: '6'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-cn; OPPO A59s Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/38.0.0.0 Mobile Safari/537.36 OppoBrowser/4.2.8'
+    family: 'Oppo Browser'
+    major: '4'
+    minor: '2'
+    patch: '8'
