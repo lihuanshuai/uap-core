@@ -360,10 +360,10 @@ test_cases:
     brand:
     model:
 
-  - user_agent_string: 'MQQBrowser/371 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A523 Safari/7534.48.3'
-    family: 'Generic Smartphone'
-    brand: 'Generic'
-    model: 'Smartphone'
+  # - user_agent_string: 'MQQBrowser/371 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A523 Safari/7534.48.3'
+  #   family: 'Generic Smartphone'
+  #   brand: 'Generic'
+  #   model: 'Smartphone'
 
   - user_agent_string: 'Opera/9.80 (VRE; Opera Mini/4.2/28.2794; U; en) Presto/2.8.119 Version/11.10'
     family: 'Generic Feature Phone'
@@ -714,6 +714,11 @@ test_cases:
     family: 'ZTE Z830'
     brand: 'ZTE'
     model: 'Z830'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.4; N958St Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/35.0.1916.138 Mobile Safari/537.36 T7/7.4 baiduboxapp/8.2.1 (Baidu; P1 4.4.4)'
+    family: 'ZTE N958St'
+    brand: 'ZTE'
+    model: 'N958St'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.2; ja-jp; SBM200SH Build/S1006) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 YJApp-ANDROID jp.co.yahoo.android.yjtop/2.4.10'
     family: 'SBM200SH'
@@ -42510,6 +42515,11 @@ test_cases:
     brand: 'Nokia'
     model: 'Xplus'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.1.1; TA-1000 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.0.0 MQQBrowser/6.6 Mobile Safari/537.36'
+    family: 'Nokia TA-1000'
+    brand: 'Nokia'
+    model: 'TA-1000'
+
   - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; 0000)'
     family: 'Lumia 0000'
     brand: 'Nokia'
@@ -79995,3 +80005,507 @@ test_cases:
     brand: 'Nokia'
     model: 'Lumia 920'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-cn; Build/LMY47D ) AppleWebKit/534.30 (KHTML,like Gecko) Version/5.1 Mobile Safari/534.30 GIONEE-GN3003/GN3003 RV/5.0.16 GNBR/5.1.0.cg Id/8D83E4532006ACCE31D712F4F73C8C70'
+    family: 'Gionee GN3003'
+    brand: 'Gionee'
+    model: 'GN3003'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0.2; F103 Build/LRX21M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043305 Safari/537.36 MicroMessenger/6.5.8.1060 NetType/WIFI Language/zh_CN'
+    family: 'Gionee F103'
+    brand: 'Gionee'
+    model: 'F103'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 6.0; zh-CN; F100S Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.5.8.945 Mobile Safari/537.36'
+    family: 'Gionee F100S'
+    brand: 'Gionee'
+    model: 'F100S'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; V188S Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/37.0.0.0 MQQBrowser/7.3 Mobile Safari/537.36'
+    family: 'Gionee V188S'
+    brand: 'Gionee'
+    model: 'V188S'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; MZ-m1 note Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/45.0.2454.94 Mobile Safari/537.36'
+    family: 'Meizu m1 note'
+    brand: 'Meizu'
+    model: 'm1 note'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-cn; MZ-M571C Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/45.0.2454.94 Mobile Safari/537.36'
+    family: 'Meizu M571C'
+    brand: 'Meizu'
+    model: 'M571C'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; U20 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.146 Mobile Safari/537.36 Weibo (Meizu-U20__weibo__7.6.2__android__android6.0)'
+    family: 'Meizu U20'
+    brand: 'Meizu'
+    model: 'U20'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; MX5 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043305 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/4G Language/zh_HK'
+    family: 'Meizu MX5'
+    brand: 'Meizu'
+    model: 'MX5'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-CN; MX4 Pro Build/LMY48W) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.5.8.945 Mobile Safari/537.36'
+    family: 'Meizu MX4 Pro'
+    brand: 'Meizu'
+    model: 'MX4 Pro'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 6.0; zh-cn; MZ-M611D Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/45.0.2454.94 Mobile Safari/537.36'
+    family: 'Meizu M611D'
+    brand: 'Meizu'
+    model: 'M611D'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; MZ-M2 E Build/MMB29U) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/45.0.2454.94 Mobile Safari/537.36'
+    family: 'Meizu M2 E'
+    brand: 'Meizu'
+    model: 'M2 E'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; MZ-M3s Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/45.0.2454.94 Mobile Safari/537.36'
+    family: 'Meizu M3s'
+    brand: 'Meizu'
+    model: 'M3s'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; PRO 5 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36'
+    family: 'Meizu PRO 5'
+    brand: 'Meizu'
+    model: 'PRO 5'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; MZ-PRO 6 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/45.0.2454.94 Mobile Safari/537.36'
+    family: 'Meizu PRO 6'
+    brand: 'Meizu'
+    model: 'PRO 6'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; M5 Note Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.140 Mobile Safari/537.36'
+    family: 'Meizu M5 Note'
+    brand: 'Meizu'
+    model: 'M5 Note'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; M636 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/35.0.1916.138 Mobile Safari/537.36 T7/7.4 baiduboxapp/8.4 (Baidu; P1 5.1.1)'
+    family: 'Meizu M636'
+    brand: 'Meizu'
+    model: 'M636'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; A680Q Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.122 Mobile Safari/537.36 Weibo (Meizu-A680Q__weibo__7.6.1__android__android6.0)'
+    family: 'Meizu A680Q'
+    brand: 'Meizu'
+    model: 'A680Q'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; M681C Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 baiduboxapp/8.6.5 (Baidu; P1 5.1)'
+    family: 'Meizu M681C'
+    brand: 'Meizu'
+    model: 'M681C'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-cn; M571C Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/37.0.0.0 MQQBrowser/7.6 Mobile Safari/537.36'
+    family: 'Meizu M571C'
+    brand: 'Meizu'
+    model: 'M571C'
+
+  - user_agent_string: 'Dalvik/2.1.0 (Linux; U; Android 6.0; MP1503 Build/MRA58K)'
+    family: 'Meitu MP1503'
+    brand: 'Meitu'
+    model: 'MP1503'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 6.0;zh_cn; x600 Build/ABXCNOP5902605181S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.2.1.29'
+    family: 'Le x600'
+    brand: 'LeEco'
+    model: 'x600'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; Le X620 Build/HEXCNFN5902606111S; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043305 Safari/537.36 V1_AND_SQ_7.1.0_692_YYB_D QQ/7.1.0.3175 NetType/WIFI WebP/0.3.0 Pixel/1080'
+    family: 'Le X620'
+    brand: 'LeEco'
+    model: 'X620'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 6.0;zh_cn; Letv X501 Build/DAXCNCU5902605181S) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/49.0.2623.91 Mobile Safari/537.36 EUI Browser/1.2.1.29'
+    family: 'Letv X501'
+    brand: 'LeEco'
+    model: 'X501'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 6.0.1; zh-CN; LEX720 Build/WAXCNFN5902606012S) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.5.8.945 Mobile Safari/537.36'
+    family: 'Le X720'
+    brand: 'LeEco'
+    model: 'X720'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; 1503-A01 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043305 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN'
+    family: '360 1503-A01'
+    brand: '360'
+    model: '1503-A01'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; 1501_M02 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.5.2.942 Mobile Safari/537.36'
+    family: '360 1501_M02'
+    brand: '360'
+    model: '1501_M02'
+
+  - user_agent_string: 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; 1605-A01 Build/MMB29M)'
+    family: '360 1605-A01'
+    brand: '360'
+    model: '1605-A01'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-cn; A7 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/37.0.0.0 MQQBrowser/7.5 Mobile Safari/537.36'
+    family: 'Samsung A7'
+    brand: 'Samsung'
+    model: 'A7'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; CHE-TL00 Build/HonorCHE-TL00) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 baiduboxapp/6.3.1 (Baidu; P1 4.4.2)'
+    family: 'Huawei CHE-TL00'
+    brand: 'Huawei'
+    model: 'CHE-TL00'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 6.0; zh-CN; PLK-TL00 Build/HONORPLK-TL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.5.8.945 Mobile Safari/537.36'
+    family: 'Huawei PLK-TL00'
+    brand: 'Huawei'
+    model: 'PLK-TL00'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; CHM-UL00 Build/HonorCHM-UL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 baiduboxapp/8.6.5 (Baidu; P1 4.4.2)'
+    family: 'Huawei CHM-UL00'
+    brand: 'Huawei'
+    model: 'CHM-UL00'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.4; Che1-CL20 Build/Che1-CL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043305 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN'
+    family: 'Huawei Che1-CL20'
+    brand: 'Huawei'
+    model: 'Che1-CL20'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 6.0.1; zh-CN; ATH-AL00 Build/HONORATH-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 Quark/1.6.8.909 Mobile Safari/537.36'
+    family: 'Huawei ATH-AL00'
+    brand: 'Huawei'
+    model: 'ATH-AL00'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; SCL-TL00H Build/HonorSCL-TL00H) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/37.0.0.0 MQQBrowser/7.6 Mobile Safari/537.36'
+    family: 'Huawei SCL-TL00H'
+    brand: 'Huawei'
+    model: 'SCL-TL00H'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; H60-L11 Build/HDH60-L11)'
+    family: 'Huawei H60-L11'
+    brand: 'Huawei'
+    model: 'H60-L11'
+
+  - user_agent_string: 'HUAWEI_P7-L07_TD/5.0 Android/4.4.2 (Linux; U; Android 4.4.2; zh-cn) Release/01.18.2014 Browser/WAP2.0 (AppleWebKit/537.36) Mobile Safari/537.36'
+    family: 'Huawei P7-L07'
+    brand: 'Huawei'
+    model: 'P7-L07'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.3; zh-cn; HW-HUAWEI Y600D-C00/Y600D-C00V100R001C92B142; 480*854; CTC/2.0) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
+    family: 'Huawei Y600D-C00'
+    brand: 'Huawei'
+    model: 'Y600D-C00'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; H60-L01 Build/HDH60-L01; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043305 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN'
+    family: 'Huawei H60-L01'
+    brand: 'Huawei'
+    model: 'H60-L01'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; P7 Build/LMY47D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30'
+    family: 'Huawei P7'
+    brand: 'Huawei'
+    model: 'P7'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.3; zh-cn; HW-H30-C00/H30-C00V100R001C92B184; 1280*720; CTC/2.0) AppleWebKit/534.30 (KHTML, like Gecko) Mobile Safari/534.30'
+    family: 'Huawei H30-C00'
+    brand: 'Huawei'
+    model: 'H30-C00'
+
+  - user_agent_string: 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; KIW-AL10 Build/HONORKIW-AL10)'
+    family: 'Huawei KIW-AL10'
+    brand: 'Huawei'
+    model: 'KIW-AL10'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; BLN-AL10 Build/HONORBLN-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043406 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/4G Language/zh_CN'
+    family: 'Huawei BLN-AL10'
+    brand: 'Huawei'
+    model: 'BLN-AL10'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; NOAIN X9V Build/LMY47D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.6.899 U3/0.8.0 Mobile Safari/534.30'
+    family: 'NOAIN X9V'
+    brand: 'NOAIN'
+    model: 'X9V'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.4; NOAIN_X6 Build/KTU84P; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043305 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/en'
+    family: 'NOAIN X6'
+    brand: 'NOAIN'
+    model: 'X6'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; Bird L6 Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 baiduboxapp/8.6.5 (Baidu; P1 5.1)'
+    family: 'Bird L6'
+    brand: 'Bird'
+    model: 'L6'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; R829T Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Chrome/38.0.0.0 Mobile Safari/534.30 OppoBrowser/4.2.8'
+    family: 'Oppo R829T'
+    brand: 'Oppo'
+    model: 'R829T'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; R7Plusm Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043305 Safari/537.36'
+    family: 'Oppo R7Plusm'
+    brand: 'Oppo'
+    model: 'R7Plusm'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.4; 3007 Build/KTU84P; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043305 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN'
+    family: 'Oppo 3007'
+    brand: 'Oppo'
+    model: '3007'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.3; zh-cn; A0001 Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/534.30 OppoBrowser/4.3.8.2'
+    family: 'Oppo A0001'
+    brand: 'Oppo'
+    model: 'A0001'
+
+  - user_agent_string: 'OPPO_R811/1.0 Linux/3.0.13 Android/4.0 Release/10.15.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 MBBMS/2.2'
+    family: 'Oppo R811'
+    brand: 'Oppo'
+    model: 'R811'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; OB-OPPO R7c Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36 OppoBrowser/4.2.8'
+    family: 'Oppo R7c'
+    brand: 'Oppo'
+    model: 'R7c'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.3; zh-cn; R2017 Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Chrome/38.0.0.0 Mobile Safari/534.30 OppoBrowser/4.2.8'
+    family: 'Oppo R2017'
+    brand: 'Oppo'
+    model: 'R2017'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.3; zh-cn; N5117 Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 baiduboxapp/4.9 (Baidu; P1 4.3)'
+    family: 'Oppo N5117'
+    brand: 'Oppo'
+    model: 'N5117'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.4; A31t Build/KTU84P; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 baiduboxapp/8.6.5 (Baidu; P1 4.4.4)'
+    family: 'Oppo A31t'
+    brand: 'Oppo'
+    model: 'A31t'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-CN; Mi-4c Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.2.8.885 Mobile Safari/537.36'
+    family: 'XiaoMi Mi-4c'
+    brand: 'XiaoMi'
+    model: 'Mi-4c'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; MIX Build/MXB48T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043305 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN'
+    family: 'XiaoMi MIX'
+    brand: 'XiaoMi'
+    model: 'MIX'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; 2014011 Build/HM2014011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Mb2345Browser/8.8.2'
+    family: 'XiaoMi HM2014011'
+    brand: 'XiaoMi'
+    model: 'HM2014011'
+
+  - user_agent_string: 'Xiaomi_2014618_TD-LTE/V1 Linux/3.4.0 Android/4.4.4 Release/10.2.2014 Browser/AppleWebKit537.36 Mobile Safari/537.36 System/Android 4.4.4 XiaoMi/MiuiBrowser/2.0.1'
+    family: 'XiaoMi 2014618_TD-LTE'
+    brand: 'XiaoMi'
+    model: '2014618_TD-LTE'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; LA-S35 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 T7/7.9 baiduboxapp/9.0.0.10 (Baidu; P1 6.0)'
+    family: '小辣椒 LA-S35'
+    brand: '小辣椒'
+    model: 'LA-S35'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; HLA Note3 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.5.6.946 Mobile Safari/537.36'
+    family: '小辣椒 HLA Note3'
+    brand: '小辣椒'
+    model: 'HLA Note3'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone 6; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/6.0 MQQBrowser/6.9.1 Mobile/14E304 Safari/8536.25 MttCustomUA/2'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone6'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone 91; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 MQQBrowser/7.6.0 Mobile/14F89 Safari/8536.25 MttCustomUA/2 QBWebViewType/1 WKType/1'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone91'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone 5SGLOBAL; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 MQQBrowser/7.6.0 Mobile/12A365 Safari/8536.25 MttCustomUA/2 QBWebViewType/1'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone5S'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone 6sp; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 MQQBrowser/7.6.0 Mobile/14F89 Safari/8536.25 MttCustomUA/2 QBWebViewType/1 WKType/1'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone6sp'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 7.0; zh-CN; XT1650-05 Build/NCC25.106-15) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.5.2.942 Mobile Safari/537.36'
+    family: 'Lenovo Moto Z XT1650-05'
+    brand: 'Lenovo'
+    model: 'Moto Z XT1650-05'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; ZUK Z2131 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 baidubrowser/7.14.13.0 (Baidu; P1 6.0.1)'
+    family: 'Lenovo ZUK Z2131'
+    brand: 'Lenovo'
+    model: 'ZUK Z2131'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; STV100-3 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36 MxBrowser/4.5.10.5000'
+    family: 'BlackBerry STV100-3'
+    brand: 'BlackBerry'
+    model: 'STV100-3'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.1.1; OD103 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.84 Mobile Safari/537.36'
+    family: 'Smartisan OD103'
+    brand: 'Smartisan'
+    model: 'OD103'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-CN; YQ601 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.5.8.945 Mobile Safari/537.36'
+    family: 'Smartisan YQ601'
+    brand: 'Smartisan'
+    model: 'YQ601'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 6.0; zh-cn; koobee M7Q Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/37.0.0.0 MQQBrowser/6.0 Mobile Safari/537.36'
+    family: 'Koobee M7Q'
+    brand: 'Koobee'
+    model: 'M7Q'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; KONKA D557 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.5.8.945 Mobile Safari/537.36'
+    family: 'KONKA D557'
+    brand: 'KONKA'
+    model: 'D557'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; BF_K11 Build/LMY47D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.6.899 U3/0.8.0 Mobile Safari/534.30'
+    family: 'BIFER BF_K11'
+    brand: 'BIFER'
+    model: 'BF_K11'
+
+  - user_agent_string: 'CMCC M636_LTE/1.0 Android/5.1.1 Release/04.30.2016 Browser/AppleWebKit537.36 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    family: 'CMCC M636_LTE'
+    brand: 'CMCC'
+    model: 'M636_LTE'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.4; M623C Build/KTU84P; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043305 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/WIFI Language/zh_CN'
+    family: 'CMCC M623C'
+    brand: 'CMCC'
+    model: 'M623C'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-cn; DAXIAN X6 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/37.0.0.0 MQQBrowser/6.0 Mobile Safari/537.36'
+    family: 'DAXIAN X6'
+    brand: 'DAXIAN'
+    model: 'X6'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.4; SK3-02 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36'
+    family: 'Coolpad SK3-02'
+    brand: 'Coolpad'
+    model: 'SK3-02'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-cn; CK3-01 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/37.0.0.0 MQQBrowser/6.0 Mobile Safari/537.36'
+    family: 'Coolpad CK3-01'
+    brand: 'Coolpad'
+    model: 'CK3-01'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; Coolpad7296 Build/4.2.006.130523.7296; 540*960; CUCC/2.0) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
+    family: 'Coolpad 7296'
+    brand: 'Coolpad'
+    model: '7296'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 6.0.1; zh-cn; 8692-M02 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/37.0.0.0 MQQBrowser/7.6 Mobile Safari/537.36'
+    family: 'Coolpad 8692-M02'
+    brand: 'Coolpad'
+    model: '8692-M02'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; Hisense E81 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/35.0.1916.138 Mobile Safari/537.36 T7/7.4 baiduboxapp/8.5 (Baidu; P1 5.1.1)'
+    family: 'Hisense E81'
+    brand: 'Hisense'
+    model: 'E81'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; VIV-vivo Y923/PD1419V_A_2.2.0; 480*854; CTC/2.0) AppleWebKit/537.36 (KHTML,like Gecko) Version/4.0 Mobile Safari/537.36 VivoBrowser/5.1.4'
+    family: 'vivo Y923'
+    brand: 'vivo'
+    model: 'Y923'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; vivo Xplay3S; Build/KVT49L; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.92 Mobile Safari/537.36 SogouMSE,SogouMobileBrowser/5.8.0'
+    family: 'vivo Xplay3S'
+    brand: 'vivo'
+    model: 'Xplay3S'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; vivo X6S A; Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.92 Mobile Safari/537.36 SogouMSE,SogouMobileBrowser/5.8.0'
+    family: 'vivo X6S A'
+    brand: 'vivo'
+    model: 'X6S A'
+
+  - user_agent_string: 'vivo_Y17W/1.0 Linux/3.4.5 Android/4.2.2 Release/06.10.2014 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/534.30 Android 4.2.2'
+    family: 'vivo Y17W'
+    brand: 'vivo'
+    model: 'Y17W'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 7.1.1; zh-CN; ivvi C5-T Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.5.8.945 Mobile Safari/537.36'
+    family: 'ivvi C5-T'
+    brand: 'ivvi'
+    model: 'C5-T'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.84 Mobile Safari/537.36'
+    family: 'Smartisan SM801'
+    brand: 'Smartisan'
+    model: 'SM801'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.4; Readboy_G90 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Safari/537.36'
+    family: 'Readboy Pad G90'
+    brand: 'Readboy'
+    model: 'G90'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; F5122 Build/34.2.A.0.311) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36'
+    family: 'Sony F5122'
+    brand: 'Sony'
+    model: 'F5122'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; L36h Build/10.5.A.0.230) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 baiduboxapp/5.0 (Baidu; P1 4.4.2)'
+    family: 'Sony L36h'
+    brand: 'Sony'
+    model: 'L36h'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; SUGAR Y7 MAX Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36'
+    family: 'SUGAR Y7 MAX'
+    brand: 'SUGAR'
+    model: 'Y7 MAX'
+
+  - user_agent_string: 'Dalvik/2.1.0 (Linux; U; Android 5.1.1; NX529J Build/LMY47V)'
+    family: 'Nubia NX529J'
+    brand: 'Nubia'
+    model: 'NX529J'
+
+  - user_agent_string: 'VOTO VT888_TD/Linux/3.4.39 Android/4.3 Release/08.15.2013 Browser/AppleWebkit534.30 Mobile Safari/534.30'
+    family: 'VOTO VT888_TD'
+    brand: 'VOTO'
+    model: 'VT888_TD'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-CN; UOOGOU Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.0.535 U3/0.8.0 Mobile Safari/534.30'
+    family: 'UOOGOU'
+    brand: 'UOOGOU'
+    model: 'UOOGOU'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; SINTAVE S1 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN'
+    family: 'SINTAVE S1'
+    brand: 'SINTAVE'
+    model: 'S1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; Venue 7 3730 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 rabbit/1.0 baiduboxapp/7.1 (Baidu; P1 4.2.2)'
+    family: 'Dell Venue 7 3730'
+    brand: 'Dell'
+    model: 'Venue 7 3730'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.4; G01111 Build/1.1.4587_20160123) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36'
+    family: 'Gree G01111'
+    brand: 'Gree'
+    model: 'G01111'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 6.0.1; zh-CN; G0215D Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.5.2.942 Mobile Safari/537.36'
+    family: 'Gree G0215D'
+    brand: 'Gree'
+    model: 'G0215D'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.4.2; zh-CN; 2014501 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.5.6.946 Mobile Safari/537.36'
+    family: 'XiaoMi Redmi 2014501'
+    brand: 'XiaoMi'
+    model: 'Redmi 2014501'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; OWWO 4S Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/35.0.1916.138 Mobile Safari/537.36 T7/7.0 baidubrowser/7.0.26.205 (Baidu; P1 5.1)'
+    family: 'OWWO 4S'
+    brand: 'OWWO'
+    model: '4S'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-CN; Onefive C3 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.5.6.946 Mobile Safari/537.36'
+    family: 'Onefive C3'
+    brand: 'Onefive'
+    model: 'C3'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; QK-6385T Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 baiduboxapp/8.6.1 (Baidu; P1 5.1)'
+    family: 'Haier QK-6385T'
+    brand: 'Haier'
+    model: 'QK-6385T'
